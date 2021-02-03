@@ -1,0 +1,31 @@
+body{
+	background: black;
+}
+.btn{
+	font-family: Arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: pointer;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btn-red{
+	background: red;
+	color: white;
+	box-shadow:0 5px 0 DarkRed;
+}
+
+.btn-red:hover{
+	background: red;
+	color: white;
+	box-shadow:0 5px 0 DarkRed;
+}
+
+.btn-red:active{
+	position: relative;
+	top: 5px;
+	box-shadow:none;
+}
